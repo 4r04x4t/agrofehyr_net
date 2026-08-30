@@ -1,0 +1,24 @@
+User-agent: *
+Allow: /
+Crawl-delay: 10
+
+# Felesleges sávszélességet fogyasztó, agresszív SEO botok tiltása
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+User-agent: Rogerbot
+Disallow: /
+
+User-agent: BLEXBot
+Disallow: /
+
+Sitemap: https://agrofehyr.net/sitemap.xml
