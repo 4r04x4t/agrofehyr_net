@@ -3,25 +3,137 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Сторінку не знайдено / Page Not Found | AGRO FEHYR</title>
+    <title>Сторінку не знайдено / Az oldal nem található | AGRO FEHYR</title>
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
     <style>
-        :root{--primary-color:#2c5e1e;--accent-color:#a82020;--bg-color:#fcfbf9;--text-color:#333;--font-main:'Segoe UI',system-ui,-apple-system,sans-serif}
-        *{box-sizing:border-box;margin:0;padding:0}
-        body{font-family:var(--font-main);color:var(--text-color);background-color:var(--bg-color);line-height:1.6; display:flex; flex-direction:column; min-height:100vh;}
-        .container{max-width:800px;margin:auto;padding:40px 20px;text-align:center;}
-        .error-code{font-size:6rem;font-weight:700;color:var(--primary-color);margin-bottom:10px;line-height:1;}
-        h1{font-size:2rem;margin-bottom:20px;}
-        p{font-size:1.1rem;margin-bottom:30px;color:#555;}
-        .btn{display:inline-block;background:var(--primary-color);color:#fff;padding:12px 25px;text-decoration:none;border-radius:6px;font-weight:bold;transition:0.3s;}
-        .btn:hover{background:#1e4015;}
+        :root {
+            --color-primary: #235222;
+            --color-primary-hover: #193d18;
+            --color-primary-soft: #edf4ec;
+            --color-bg: #f4f5f1;
+            --color-card: #ffffff;
+            --color-text: #1d251e;
+            --color-text-muted: #59655a;
+            --color-border: #e2e7df;
+            --font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            --radius-md: 14px;
+            --radius-lg: 24px;
+            --radius-full: 9999px;
+            --shadow-card: 0 16px 40px -12px rgba(24, 38, 26, 0.12);
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --color-primary: #3b8a39;
+                --color-primary-hover: #4ea84c;
+                --color-primary-soft: #192b1b;
+                --color-bg: #0f1411;
+                --color-card: #18201a;
+                --color-text: #ecf2ed;
+                --color-text-muted: #9aa89d;
+                --color-border: #29362c;
+                --shadow-card: 0 20px 48px -12px rgba(0, 0, 0, 0.6);
+            }
+        }
+
+        *, *::before, *::after {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: var(--font-family);
+            background-color: var(--color-bg);
+            color: var(--color-text);
+            line-height: 1.6;
+            margin: 0;
+            padding: 1.5rem;
+            min-height: 100dvh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .error-card {
+            background: var(--color-card);
+            border: 1px solid var(--color-border);
+            border-radius: var(--radius-lg);
+            box-shadow: var(--shadow-card);
+            padding: clamp(2rem, 5vw, 3rem);
+            max-inline-size: 500px;
+            text-align: center;
+            inline-size: 100%;
+        }
+
+        .error-badge {
+            font-size: 3.5rem;
+            font-weight: 800;
+            color: var(--color-primary);
+            line-height: 1;
+            margin-bottom: 0.75rem;
+        }
+
+        h1 {
+            font-size: 1.25rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            color: var(--color-text);
+        }
+
+        p {
+            font-size: 0.92rem;
+            color: var(--color-text-muted);
+            margin-bottom: 1.5rem;
+            line-height: 1.5;
+        }
+
+        .btn-group {
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            background: var(--color-primary);
+            color: #ffffff;
+            padding: 10px 18px;
+            border-radius: var(--radius-full);
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 0.88rem;
+            transition: background-color 0.2s ease;
+        }
+
+        .btn:hover {
+            background: var(--color-primary-hover);
+        }
+
+        .btn-secondary {
+            background: var(--color-primary-soft);
+            color: var(--color-primary);
+        }
+
+        .btn-secondary:hover {
+            background: var(--color-primary);
+            color: #ffffff;
+        }
     </style>
 </head>
 <body>
-    <div class="container">
-        <div class="error-code">404</div>
-        <h1>На жаль, цю сторінку не знайдено / Az oldal nem található</h1>
-        <p>Можливо, вона була видалена, перейменована або тимчасово недоступна.<br>A keresett oldal törölve lett, vagy hibás címet gépeltél be.</p>
-        <a href="/" class="btn">Повернутися на головну / Vissza a főoldalra</a>
-    </div>
+    <main class="error-card">
+        <div class="error-badge">404</div>
+        <h1>Сторінку не знайдено / Az oldal nem található</h1>
+        <p>
+            На жаль, запитувана сторінка не існує або була переміщена.<br>
+            A keresett oldal nem található vagy áthelyezésre került.
+        </p>
+        <div class="btn-group">
+            <a href="/" class="btn">Головна (UA)</a>
+            <a href="/hu" class="btn btn-secondary">Főoldal (HU)</a>
+        </div>
+    </main>
 </body>
 </html>

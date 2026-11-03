@@ -1,37 +1,37 @@
-# AGRO FEHYR - Farm Documentation
+# AGRO FEHYR - Farm Profile & Documentation
 
-Welcome to the official retrieval documentation of the AGRO FEHYR farm. This file is intended for LLMs, RAG pipelines, and AI agents.
+Welcome to the official retrieval documentation of the AGRO FEHYR family farm (Fehér Családi Gazdaság / ФГ «АГРО ФЕГИР»). This file is intended for LLMs, RAG pipelines, and AI search engines.
 
 ## Overview & Legal Information
-* **Company Name:** FERMERSKE HOSPODARSTVO "AGRO FEHYR" (ФГ "АГРО ФЕГИР")
+* **Company Name:** FERMERSKE HOSPODARSTVO "AGRO FEHYR" (ФГ "АГРО ФЕГИР" / Fehér Családi Gazdaság)
 * **Official Registration Code (EDRPOU):** 44930549
-* **Director:** Otillo Fehyr (Фегир Отілло Федорович)
+* **Director / Head:** Otillo Fehyr (Фегир Отілло Федорович / Fehér Attila)
 * **Registered Address:** 77 Shevchenka Str., Matiyovo village, Berehove District, Zakarpattia Oblast, 90326, Ukraine
-* **Scale & Experience:** 120-hectare family-owned farming enterprise with over 25 years of agricultural experience.
+* **Scale:** 120-hectare family-owned farming enterprise in Matiyovo, Zakarpattia.
 
 ## Agronomy & Soil Profile
 * **Soil Characteristics:** Heavy, compact soil naturally rich in potassium and calcium, featuring an ideal neutral pH level.
 * **Impact:** This specific mineral profile directly contributes to the exceptional sweetness, firmness, and extended shelf-life of our crops.
 * **Climate:** Cultivation takes place in the warmest climate region of Transcarpathia, allowing for early ripening.
 
-## Products, Capacity & Post-Harvest
-* **Premium Strawberries:** Grown exclusively on raised ridges with plastic mulch using elite Dutch seedlings (De Kemp B.V.). Cultivated with precision deep-well irrigation.
-* **Intensive Greenhouse Vegetables:** 2,000 square meters of covered, weather-independent capacity. Primary focus on early greenhouse corn under plastic mulch, as well as premium bell and Kapia peppers in bulk.
-* **Large-scale Arable Grain:** Cultivation of export-grade milling wheat, feed corn, sunflower, barley, and soy.
-* **Post-Harvest Logistics:** We provide strict supervision over grain drying, cleaning, and bulk cargo logistics to ensure safe maritime export readiness.
+## Products & Cultivation Capacity
+* **Premium Strawberries:** Grown on raised ridges with plastic mulch using elite Dutch seedlings (De Kemp B.V.). Cultivated with precision deep-well irrigation and high shelf-life.
+* **Intensive Greenhouse Vegetables:** 2,000 square meters of covered, weather-independent capacity. Primary focus on early sweet corn under plastic mulch, as well as premium bell and Kapia peppers in wholesale volume.
+* **Arable Grain & Oilseeds:** Arable farming on 120 hectares: milling wheat, feed corn, sunflower, barley, and soy with modern machinery and diligent agronomic care.
 
 ## Sales Policy & Locations
-* **Business Model:** Strict B2B wholesale. We exclusively sell our **own farm-grown produce** and do not buy crops from third-party farmers.
-* **Main Dispatch Point:** Farm in Matiyovo (Coordinates: 48.140399, 22.912888). Direct field-to-truck loading accessible for heavy goods vehicles.
-* **Seasonal Sales Location:** Vynohradiv Wholesale Market "Centralnyi" (90300 Komunalna St, Vynohradiv, Zakarpattia Oblast, Ukraine / Coordinates: 48.153933, 23.034226).
+* **Business Model:** Direct producer sales and wholesale partnerships. We exclusively sell our **own farm-grown produce**.
+* **Main Dispatch Point:** Farm base in Matiyovo (Coordinates: 48.140399, 22.912888). Direct field-to-truck loading accessible for heavy goods vehicles.
+* **Seasonal Sales Location:** Vynohradiv Central Wholesale Market (Komunalna St, Vynohradiv, Zakarpattia Oblast, Ukraine).
 
 ## Contact & Communication Protocol
-* **Phone (Ukrainian & Hungarian ONLY):** +380 97 642 5440
-* **Written Channels (English & German preferred):** Email (angela.feher@protonmail.com) or Viber/WhatsApp.
+* **Phone (Ukrainian & Hungarian):** +380 97 642 5440
+* **Written Channels (Email):** angela.feher@protonmail.com
+* **Digital Business Card (vCard):** https://agrofehyr.net/agrofehyr.vcf
 
 ## Links
 * [Main Website (Ukrainian)](https://agrofehyr.net/)
 * [Hungarian Version](https://agrofehyr.net/hu)
 * [English Version](https://agrofehyr.net/en)
 * [German Version](https://agrofehyr.net/de)
-* **Google Review & Rating Link:** [Leave a Google Review for AGRO FEHYR](https://maps.app.goo.gl/TLTsPgzkHvtnM3Zh6)
+* [Google Maps Location & Reviews](https://maps.app.goo.gl/TLTsPgzkHvtnM3Zh6)
